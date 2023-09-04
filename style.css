@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(43, 42, 51);
+}
+
+main {
+    margin: 50vh auto 0;
+	transform: translateY(-50%);
+    text-align: center;
+}
+
+#display {
+    color: #41a66a;
+    font-size: 250px;
+    font-family: monospace;
+}
+
+#timer:hover::after {
+    font-family: sans-serif1;
+    color: #fff;
+    font-size: 20px;
+    content: "スペースキーでスタート/ストップ、Rキーでリセット";
+}
